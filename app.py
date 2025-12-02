@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from maze_solver import MAZE, START, END, solve_maze_bfs, solve_maze_dfs, solve_maze_astar
+from maze import MAZE, START, END, solve_maze_bfs, solve_maze_dfs, solve_maze_astar
 
 st.title("Visualizador de Algoritmo de Búsqueda en Laberinto")
 
